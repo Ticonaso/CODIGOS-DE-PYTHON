@@ -3,8 +3,8 @@
 try:
     print(a)
 
-except:
-    print("error")
+except NameError as error:
+    print(error)
 
 finally:
     print("wa")
