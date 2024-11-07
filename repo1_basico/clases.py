@@ -1,5 +1,5 @@
 
-class unPerro:
+class Perro:
     def __init__(self,peso,nombre,raza):
         self.peso = peso
         self.nombre = nombre
@@ -8,7 +8,7 @@ class unPerro:
     def comer(self):
         print(f"el perro {self.nombre} es comiendo")
 
-perro_1 = unPerro(30,"juan","golden")
+perro_1 = Perro(30,"juan","golden")
 
 print(perro_1.peso)
 print(perro_1.nombre)

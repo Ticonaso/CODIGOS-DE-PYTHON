@@ -1,3 +1,3 @@
 
-def Sum_nro(a,b):
+def sum(a,b):
     return a + b
